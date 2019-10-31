@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Home</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" type="image/png" href="favicon.png" sizes="32x32">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+* {
+	box-sizing: border-box;
+}
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 0px;
+	padding: 0px;
+	font-size: 14px;
+}
+/* Style the header */
+header {
+	background-color: #666;
+	padding: 10px;
+	display: flex;
+}
+header h2 {
+	font-size: 35px;
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	color: white;
+	width: 20%;
+}
+.menu {
+	width: 80%;
+	float: right;
+}
+.menu ul {
+	list-style: none;
+}
+.menu ul li {
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+	float: left;
+}
+.menu ul li a {
+	list-style: none;
+	text-decoration: none;
+	color: #fff;
+	padding: 0px 20px;
+	text-transform: uppercase;
+}
+.menu ul li a:hover {
+	color: #f9f9f9;
+}
+.menu ul li:nth-last-child(1), .menu ul li:nth-last-child(2) {
+	float: right;
+}
+/* Create two columns/boxes that floats next to each other */
+nav {
+	float: left;
+	width: 5%;
+	height: 560px;
+	background: #ccc;
+	padding: 0px;
+}
+/* Style the list inside the menu */
+nav ul {
+	list-style-type: none;
+	padding: 0;
+}
+nav ul li {
+	list-style-type: none;
+	padding: 0;
+}
+nav ul li a {
+	display: block;
+	width: 100%;
+	padding: 16px 20px;
+	text-decoration: none;
+	border-bottom: 1px solid #f5f5f5;
+	color: #383737;
+}
+article {
+	float: left;
+	padding: 20px;
+	width: 95%;
+	background-color: #fff;
+	margin:0%;
+}
+/* Clear floats after the columns */
+section:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+/* Style the footer */
+footer {
+	background-color: #777;
+	padding: 1px;
+	text-align: center;
+	color: white;
+	position: fixed;
+	width: 100%;
+	bottom: 0%;
+}
+.left_arrow {
+    position: relative;
+    left: 12%;
+    color: #060606;
+    background: #fff;
+    width: 30px;
+    border-radius: 100%;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    margin-top: 20%;
+}
+.clear {
+	display: block;
+	clear: both;
+}
+.float_left {
+	float: left;
+}
+.float_right {
+	float: right;
+}
+.bg1 {
+	background: #999;
+}
+.bg2 {
+	background: #06F;
+}
+.bg3 {
+	background: #000;
+}
+.bg4 {
+	background: #F03;
+}
+.bg5 {
+	background: #333;
+}
+.bg6 {
+	background: #0C3;
+}
+.pd50 {
+	padding: 50px !important;
+	color: #fff;
+	font-size: 24px;
+	text-align: center;
+	display: block;
+	margin-bottom:10px !important;
+}
+.div100 {
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+	display: block;
+}
+.div75 {
+	width: 75%;
+	margin: 0px;
+	padding: 0px;
+	display: block;
+}
+.div50 {
+	width: 50%;
+	margin: 0px;
+	padding: 0px;
+	display: block;
+}
+.div25 {
+	width: 25%;
+	margin: 0px;
+	padding: 0px;
+	display: block;
+}
+.mb10 {margin-bottom:10px;}
+#customers {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#customers td, #customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+
+#customers tr:hover {background-color: #ddd;}
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4CAF50;
+  color: white;
+}
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+nav, article {
+	width: 100%;
+	height: auto;
+}
+}
+</style>
+</head>
+<body>
+<header>
+  <h2 class="logo">Brand</h2>
+  <div class="menu">
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About Us</a></li>
+      <li><a href="#">Contact Us</a></li>
+      <li><a href="#"><i class="fa fa-sign-out"></i></a></li>
+      <li><a href="#"><i class="fa fa-bell"></i><sup>2</sup></a></li>
+    </ul>
+  </div>
+</header>
+<section>
+  <nav> <a href="#"><i class="fa fa-arrow-right left_arrow"></i></a>
+    <ul>
+      <li><a href="#"><i class="fa fa-dashboard"></i></a></li>
+      <li><a href="#"><i class="fa fa-adjust"></i></a></li>
+      <li><a href="#"><i class="fa fa-amazon"></i></a></li>
+      <li><a href="#"><i class="fa fa-adjust"></i></a></li>
+      <li><a href="#"><i class="fa fa-behance"></i></a></li>
+      <li><a href="#"><i class="fa fa-apple"></i></a></li>
+      <li><a href="#"><i class="fa fa-archive"></i></a></li>
+    </ul>
+  </nav>
+  <article>
+    <div class="div100 mb10">
+    
+    <table id="customers">
+  <tr>
+    <th>Company</th>
+    <th>Contact</th>
+    <th>Country</th>
+  </tr>
+  <tr>
+    <td>Alfreds Futterkiste</td>
+    <td>Maria Anders</td>
+    <td>Germany</td>
+  </tr>
+  <tr>
+    <td>Berglunds snabbköp</td>
+    <td>Christina Berglund</td>
+    <td>Sweden</td>
+  </tr>
+  <tr>
+    <td>Centro comercial Moctezuma</td>
+    <td>Francisco Chang</td>
+    <td>Mexico</td>
+  </tr>
+  <tr>
+    <td>Ernst Handel</td>
+    <td>Roland Mendel</td>
+    <td>Austria</td>
+  </tr>
+  <tr>
+    <td>Island Trading</td>
+    <td>Helen Bennett</td>
+    <td>UK</td>
+  </tr>
+  <tr>
+    <td>Königlich Essen</td>
+    <td>Philip Cramer</td>
+    <td>Germany</td>
+  </tr>
+  <tr>
+    <td>Laughing Bacchus Winecellars</td>
+    <td>Yoshi Tannamuri</td>
+    <td>Canada</td>
+  </tr>
+  <tr>
+    <td>Magazzini Alimentari Riuniti</td>
+    <td>Giovanni Rovelli</td>
+    <td>Italy</td>
+  </tr>
+  <tr>
+    <td>North/South</td>
+    <td>Simon Crowther</td>
+    <td>UK</td>
+  </tr>
+  <tr>
+    <td>Paris spécialités</td>
+    <td>Marie Bertrand</td>
+    <td>France</td>
+  </tr>
+</table>
+    
+    </div>
+    <div class="div75 bg1 pd50 float_left">75</div>
+    <div class="div25 bg2 pd50 float_right">25</div>
+    <div class="div50 bg3 pd50 float_left">50</div>
+    <div class="div50 bg4 pd50 float_left">50</div>
+    <div class="div25 bg5 pd50 float_left">25</div>
+    <div class="div25 bg6 pd50 float_left">25</div>
+    <div class="div25 bg1 pd50 float_left">25</div>
+    <div class="div25 bg2 pd50 float_left">25</div>
+  </article>
+</section>
+<footer>
+  <p>Footer</p>
+</footer>
+</body>
+</html>
