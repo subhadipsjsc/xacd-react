@@ -1,0 +1,267 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+
+/* Style the footer */
+footer {
+	background-color: #777;
+	padding: 1px;
+	text-align: center;
+	color: white;
+	position: fixed;
+	width: 100%;
+	bottom: 0%;
+}
+
+
+
+
+
+/* Style the header menu  */
+header {
+	background-color: #666;
+	padding: 10px;
+	display: flex;
+}
+header h2 {
+	font-size: 35px;
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	color: white;
+	width: 20%;
+}
+
+.menu {
+	width: 80%;
+	float: right;
+}
+.menu ul {
+	list-style: none;
+}
+.menu ul li {
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+	float: left;
+}
+.menu ul li a {
+    list-style: none;
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+	text-transform: uppercase;
+	margin: 0px 2px;
+}
+.menu ul li a:hover {
+	color: #0a0a0a;
+    background: #eee;
+}
+.menu ul li a.active_header_menu {
+    color: #0a0a0a;
+    background: #eee;
+}
+.menu ul li:nth-last-child(1), .menu ul li:nth-last-child(2) {
+	float: right;
+}
+
+
+
+
+
+
+/* full navbar css  */
+
+.fullNav {
+	float: left;
+	width: 16%;
+	height: 560px;
+	background: #ccc;
+	padding: 0px 10px;
+}
+
+.article_small {
+	float: left;
+	padding: 20px;
+	width: 84%;
+	background-color: #fff;
+	margin:0%;
+}
+
+
+
+/* Style the list inside the menu */
+.fullNav ul {
+	list-style-type: none;
+	padding: 0;
+}
+.fullNav ul li {
+	list-style-type: none;
+	padding: 0;
+}
+.fullNav ul li a {
+	display: block;
+	width: 100%;
+	padding: 16px 20px;
+	text-decoration: none;
+	border: 0px solid #f5f5f5;
+	margin:4px 0px;
+	color: #383737;
+}
+.fullNav ul li a:hover { color:#000;background-color: #eee;}
+
+
+
+
+
+
+.full_nanbar_left_arrow{
+	position: relative;
+    left: 82%;
+    color: #060606;
+    background: #fff;
+    width: 30px;
+    border-radius: 100%;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    margin-top: 4%;
+}
+
+/* half navbar css  */
+
+.halfNav {
+    float: left;
+    width: 6%;
+    height: 560px;
+    background: #ccc;
+    padding: 0px 10px;
+}
+
+.article_big {
+	float: left;
+	padding: 20px;
+	width: 94%;
+	background-color: #fff;
+	margin:0%;
+}
+
+.halfNav ul {
+	list-style-type: none;
+	padding: 0;
+}
+.halfNav ul li {
+	list-style-type: none;
+	padding: 0;
+}
+.halfNav ul li a {
+	display: block;
+	width: 100%;
+	padding: 16px 20px;
+	text-decoration: none;
+	border: 0px solid #f5f5f5;
+	margin:4px 0px;
+	color: #383737;
+}
+.halfNav ul li a:hover { color:#000;background-color: #eee;}
+
+
+.half_nanbar_left_arrow{
+	position: relative;
+    left: 12%;
+    color: #060606;
+    background: #fff;
+    width: 30px;
+    border-radius: 100%;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    margin-top: 20%;
+}
+
+
+.active_side_menu { color:#fff;background-color: #9c27b0;}
+
+
+
+.clear {
+	display: block;
+	clear: both;
+}
+.float_left {
+	float: left;
+}
+.float_right {
+	float: right;
+}
+.bg1 {
+	background: #999;
+}
+.bg2 {
+	background: #06F;
+}
+.bg3 {
+	background: #000;
+}
+.bg4 {
+	background: #F03;
+}
+.bg5 {
+	background: #333;
+}
+.bg6 {
+	background: #0C3;
+}
+.pd50 {
+	padding: 50px !important;
+	color: #fff;
+	font-size: 24px;
+	text-align: center;
+	display: block;
+}
+.div100 {
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+	display: block;
+}
+.div75 {
+	width: 75%;
+	margin: 0px;
+	padding: 0px;
+	display: block;
+}
+.div50 {
+	width: 50%;
+	margin: 0px;
+	padding: 0px;
+	display: block;
+}
+.div25 {
+	width: 25%;
+	margin: 0px;
+	padding: 0px;
+	display: block;
+}
+
+
+

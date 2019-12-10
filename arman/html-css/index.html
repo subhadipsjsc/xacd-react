@@ -44,103 +44,52 @@ header h2 {
 	float: left;
 }
 .menu ul li a {
-    list-style: none;
-    text-decoration: none;
-    color: #fff;
-    padding: 10px 20px;
-    text-transform: uppercase;
-	margin: 0px 1px;
+	list-style: none;
+	text-decoration: none;
+	color: #fff;
+	padding: 0px 20px;
+	text-transform: uppercase;
 }
 .menu ul li a:hover {
-	color: #0a0a0a;
-    background: #eee;
+	color: #3ae8f1;
 }
 .menu ul li a.active {
-    color: #0a0a0a;
-    background: #eee;
+	color: #3ae8f1;
 }
 .menu ul li:nth-last-child(1), .menu ul li:nth-last-child(2) {
 	float: right;
 }
 /* Create two columns/boxes that floats next to each other */
-.full_nav {
+nav {
 	float: left;
-	width: 19%;
+	width: 20%;
 	height: 560px;
 	background: #ccc;
-	padding: 0px 10px;
+	padding: 0px;
 }
 /* Style the list inside the menu */
-.full_nav ul {
+nav ul {
 	list-style-type: none;
 	padding: 0;
 }
-.full_nav ul li {
+nav ul li {
 	list-style-type: none;
 	padding: 0;
 }
-.full_nav ul li a {
+nav ul li a {
 	display: block;
 	width: 100%;
 	padding: 16px 20px;
 	text-decoration: none;
-	border: 0px solid #f5f5f5;
-	margin:4px 0px;
+	border-bottom: 1px solid #f5f5f5;
 	color: #383737;
 }
-.full_nav ul li a:hover { color:#000;background-color: #eee;}
-.full_nav ul li a.active { color:#fff;background-color: #9c27b0;}
-/* Create two columns/boxes that floats next to each other */
-.half_nav {
-    float: left;
-    width: 5.5%;
-    height: 560px;
-    background: #ccc;
-    padding: 0px 10px;
-}
-.right_arrow {
-    position: relative;
-    left: 32%;
-    color: #060606;
-    background: #fff;
-    width: 30px;
-    border-radius: 100%;
-    height: 30px;
-    line-height: 30px;
-    text-align: center;
-    margin-top: 12%;
-}
-/* Style the list inside the menu */
-.half_nav ul {
-	list-style-type: none;
-	padding: 0;
-}
-.half_nav ul li {
-	list-style-type: none;
-	padding: 0;
-}
-.half_nav ul li a {
-	display: block;
-	width: 100%;
-	padding: 16px 20px;
-	text-decoration: none;
-	border: 0px solid #f5f5f5;
-	margin:4px 0px;
-	color: #383737;
-}
-.half_nav ul li a:hover { color:#000;background-color: #eee;}
-.half_nav ul li a.active { color:#fff;background-color: #9c27b0;}
-.full_article {
+nav ul li a:hover { color:#0066ff;}
+nav ul li a.active { color:#0066ff;}
+article {
 	float: left;
 	padding: 20px;
-	width: 81%;
-	background-color: #fff;
-	margin:0%;
-}
-.half_article {
-	float: left;
-	padding: 20px;
-	width: 94.5%;
+	width: 80%;
 	background-color: #fff;
 	margin:0%;
 }
@@ -254,29 +203,18 @@ nav, article {
   </div>
 </header>
 <section>
-  <nav class="full_nav"> <a href""> <i class="fa fa-arrow-left left_arrow"></i> </a>
+  <nav> <a href="index1.html"><i class="fa fa-arrow-left left_arrow"></i></a>
     <ul>
       <li><a href="#" class="active"><i class="fa fa-dashboard"></i>&nbsp;&nbsp;Dashboard</a></li>
       <li><a href="#"><i class="fa fa-adjust"></i>&nbsp;&nbsp;Home</a></li>
-      <li><a href="#"><i class="fa fa-amazon"></i>&nbsp;&nbsp;Goals And Competencies</a></li>
+      <li><a href="#"><i class="fa fa-amazon"></i>&nbsp;&nbsp;About</a></li>
       <li><a href="#"><i class="fa fa-adjust"></i>&nbsp;&nbsp;Home</a></li>
-      <li><a href="#"><i class="fa fa-behance"></i>&nbsp;&nbsp;Employee Management</a></li>
+      <li><a href="#"><i class="fa fa-behance"></i>&nbsp;&nbsp;About</a></li>
       <li><a href="#"><i class="fa fa-apple"></i>&nbsp;&nbsp;Home</a></li>
       <li><a href="#"><i class="fa fa-archive"></i>&nbsp;&nbsp;About</a></li>
     </ul>
   </nav>
-  <!-- <nav class="half_nav"> <i class="fa fa-arrow-right right_arrow"></i>
-    <ul>
-      <li><a href="#" class="active"><i class="fa fa-dashboard"></i></a></li>
-      <li><a href="#"><i class="fa fa-adjust"></i></a></li>
-      <li><a href="#"><i class="fa fa-amazon"></i></a></li>
-      <li><a href="#"><i class="fa fa-adjust"></i></a></li>
-      <li><a href="#"><i class="fa fa-behance"></i></a></li>
-      <li><a href="#"><i class="fa fa-apple"></i></a></li>
-      <li><a href="#"><i class="fa fa-archive"></i></a></li>
-    </ul>
-  </nav> -->
-  <article class="full_article">
+  <article>
     <div class="div100 bg4 pd50">100</div>
     <div class="div75 bg1 pd50 float_left">75</div>
     <div class="div25 bg2 pd50 float_right">25</div>
@@ -287,17 +225,6 @@ nav, article {
     <div class="div25 bg1 pd50 float_left">25</div>
     <div class="div25 bg2 pd50 float_left">25</div>
   </article>
-  <!-- <article class="half_article">
-    <div class="div100 bg4 pd50">100</div>
-    <div class="div75 bg1 pd50 float_left">75</div>
-    <div class="div25 bg2 pd50 float_right">25</div>
-    <div class="div50 bg3 pd50 float_left">50</div>
-    <div class="div50 bg4 pd50 float_left">50</div>
-    <div class="div25 bg5 pd50 float_left">25</div>
-    <div class="div25 bg6 pd50 float_left">25</div>
-    <div class="div25 bg1 pd50 float_left">25</div>
-    <div class="div25 bg2 pd50 float_left">25</div>
-  </article> -->
 </section>
 <footer>
   <p>Footer</p>
